@@ -1,0 +1,25 @@
+{
+  "name": "kadili-notes-bot",
+  "version": "1.0.0",
+  "description": "Kadili WhatsApp bot for saving notes and setting reminders",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "notes",
+    "reminders",
+    "baileys",
+    "kadili"
+  ],
+  "author": "Kadili Tech",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "dotenv": "^16.3.1",
+    "figlet": "^1.5.2",
+    "pino": "^8.17.0"
+  }
+}
