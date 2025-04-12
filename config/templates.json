@@ -1,0 +1,24 @@
+{
+  "commands": {
+    ".note": {
+      "description": "Store a note.",
+      "usage": ".note [note_content]",
+      "response": "Note saved successfully!"
+    },
+    ".mynotes": {
+      "description": "View all your saved notes.",
+      "usage": ".mynotes",
+      "response": "Here are all your notes:"
+    },
+    ".deletenote": {
+      "description": "Delete a specific note.",
+      "usage": ".deletenote [note_id]",
+      "response": "Note deleted successfully!"
+    },
+    ".remind": {
+      "description": "Set a reminder for a note.",
+      "usage": ".remind [time] [note_content]",
+      "response": "Reminder set successfully!"
+    }
+  }
+}
